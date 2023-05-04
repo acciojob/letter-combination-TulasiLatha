@@ -11,7 +11,7 @@ function letterCombinations(input_digit) {
 		'9':'wxyz',
 	};
 	const result=[];
-	if(input_digit.lrngth=0){
+	if(input_digit.length=0){
 		return result;
 	}
 	function back(combination, nxtDigits){
